@@ -571,19 +571,17 @@ nav ul li i{
 
   .footer-logo{
     margin: 0 0 0 0;
-    align-self: center !important;
-    align-items: center !important;
-    justify-content: center !important;
   }
 
   .footer-logo img {
-    width: 60%;  
-    margin-left: 20%;
+    width: 100%; 
+    margin-left: 26%;
+    height: auto;
   }
 
   .footer-logo p {
-    margin: 0 ;
-    font-size: 3.5vw;
+    margin: 0 2%;
+    font-size: 5vw; 
   }
 
   .footer-links p{
@@ -630,7 +628,7 @@ nav ul li i{
   #header-bottom-bar{
     width: 100%;
     margin: 0;
-    top: 120px;
+    top: 80px;
   }
 
   .header-bottom-bar-content {
@@ -644,7 +642,7 @@ nav ul li i{
   }
 
   #prmi-section{
-    margin-top: 70% !important;
+    margin-top: 60% !important;
   }
 
   .functions-section-functions-section {
@@ -654,7 +652,7 @@ nav ul li i{
   .functions-section-frame37292 {
     margin: 0 2%;
     width: 100%;
-    font-size: 4vw;
+    font-size: 5vw;
     line-height: 20px;
     white-space: wrap;
   }
@@ -665,7 +663,8 @@ nav ul li i{
   }
 
   .publications-frame-1-pdf2 p {
-    font-size: 1.7vw;
+    font-size: 3.5vw;
+    white-space: wrap;
   }
   
   .functions-section-frame37299,
@@ -892,13 +891,16 @@ nav ul li i{
     margin: 0 2%;
     width: 100%;
     font-size: 4vw;
-    line-height: 20px;
     white-space: wrap;
   }
 
   .functions-section-frame37302{
     width: 100%;
     margin: 0 5%;
+  }
+
+  .functions-section-frame37292 span{
+    line-height: 30px !important;
   }
 
   .publications-frame-1-pdf2 p {
@@ -914,6 +916,10 @@ nav ul li i{
   .functions-section-frame3800 button{
     margin-left: 3%;
     font-size: 3vw;
+  }
+
+  .publiations-button{
+    font-size: 1.8vw !important;
   }
 
 

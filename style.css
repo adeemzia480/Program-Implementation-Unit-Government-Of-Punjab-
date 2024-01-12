@@ -189,12 +189,16 @@ nav ul li i{
   flex: 1; 
 }
 
+.grid-content-1{
+  margin-left: -1%;
+}
 
 .hero-title {
   margin: 40% 0 0 0;
 }
 
 .hero-title, .bold-text {
+  margin-left: -.2%;
   font-size: 50px;
   color: #3C67AE;
   font-weight: 700;
@@ -374,10 +378,11 @@ nav ul li i{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  gap: 3%;
 }
 
 .card {
-  width: calc(33.33% - 30px);
+  width: calc(33.5% - 28px);
   margin-bottom: 20px;
   border-radius: 5px;
   background-color: #fff;
@@ -489,7 +494,7 @@ background-color: #1f8ac9;
 .about-us-container {
   position: absolute;
   top: 0;
-  left: 5%;
+  left: 3.2%;
   width: 50%;
   height: 100%;
   padding: 20px;
@@ -664,7 +669,6 @@ background-color: #F2BA44;
   background-color: transparent;
   border: none;
   cursor: pointer;
-
 }
 
 .arrow-left {
@@ -677,7 +681,7 @@ background-color: #F2BA44;
 
 .dots {
   position: absolute;
-  top: 95%;
+  top: 70%;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
@@ -687,9 +691,9 @@ background-color: #F2BA44;
 .dot {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #dddddd;
   border-radius: 50%;
-  border: .5px solid #000000;
+  /* border: .5px solid #000000; */
   margin: 0 5px;
   cursor: pointer;
 }
@@ -709,7 +713,7 @@ background-color: #F2BA44;
 
 .grievance-section-content {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 3.1%;
 }
 
 .grievance-content-1{
@@ -1129,7 +1133,7 @@ background-color: #c9921c;
 
 .footer-content {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 4.2%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -1768,6 +1772,9 @@ text-align: center;
 .adp-scheme-content1-pdf2 p,
 .adp-scheme-content1-pdf3 p {
   margin: 10px;
+  font-family: 'inter', sans-serif;
+  font-size: 3.5vw;
+  font-weight: 700;
   color: #474444;
 }
 
@@ -2547,6 +2554,10 @@ text-align: center;
     font-size: 3vw; 
   }
 
+  .dots {
+    top: 95% !important;
+  }
+
   /* GRIEVANCE SECTION */
 
   .grievance-section-content {
@@ -2740,26 +2751,29 @@ text-align: center;
   }
 
   .footer-content {
+    margin-left: 0 !important;
+    margin-right: 10%;
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
   .footer-logo{
-    margin: 0 0 0 0;
-    align-self: center !important;
+    display: flex;
+    flex-direction: column;
     align-items: center !important;
     justify-content: center !important;
   }
 
   .footer-logo img {
     width: 60%;  
-    margin-left: 20%;
   }
 
   .footer-logo p {
     margin: 0 ;
-    font-size: 3.5vw;
+    font-weight: bold!important;
+    font-size: 5.5vw;
   }
 
   .footer-links p{
@@ -2807,7 +2821,7 @@ text-align: center;
   #header-bottom-bar{
     width: 100%;
     margin: 0;
-    top: 120px;
+    top: 80px;
   }
 
   .header-bottom-bar-content {
@@ -2844,10 +2858,18 @@ text-align: center;
 
   /* Functions Page */
 
+  .functions-content{
+    margin-top: 50%;
+  }
+
+  .functions-content h1{
+    font-size: 6vw;
+  }
+
   .right-aligned-content,
   .left-aligned-content {
     flex-direction: column; 
-    margin: 15% 2%;
+    margin: 2%;
     padding: 5px;
   }
 
@@ -2877,6 +2899,14 @@ text-align: center;
 
   /* OUR MISSION PAGE */
 
+  .our-message-content{
+    margin-top: 50%;
+  }
+
+  .our-message-content h1{
+    font-size: 6vw;
+  }
+
   .our-message-right-aligned-content,
   .our-message-left-aligned-content {
     flex-direction: column; 
@@ -2887,12 +2917,19 @@ text-align: center;
   .right-aligned-content-message-text,
   .left-aligned-content-message-text {
     width: 100%; 
+    font-size: 3.5vw;
   }
+
+  .right-aligned-content-message-text p,
+  .left-aligned-content-message-text p {
+    font-size: 4.5vw;
+  }
+
 
   /* OUR TEAM PAGE */
 
   #our-team{
-    margin-top: 70%;
+    margin-top: 60%;
   }
 
   .our-team-content > h1{
@@ -3093,11 +3130,11 @@ text-align: center;
   
   .punjab-jobs-section-content-1 h1{
     font-size: 5vw;
-    line-height: 35px;
+    line-height: 20px;
   }
   
   .punjab-jobs-section-content-2{
-    margin: 0 5%;
+    margin: 5% 5%;
     width: 90%;
   }
   
@@ -3106,7 +3143,7 @@ text-align: center;
   }
   
   .punjab-jobs-section-content-3 p{
-    font-size: 3.5vw;
+    font-size: 4.5vw;
   }
   
   .punjab-jobs-section-content-3 h1{
@@ -3115,7 +3152,7 @@ text-align: center;
   }
   
   .punjab-jobs-section-content-3 li{
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     line-height: 15px;
   }
   
@@ -3125,7 +3162,7 @@ text-align: center;
   }
   
   .punjab-jobs-section-content-4 p{
-    font-size: 3.5vw;
+    font-size: 4.5vw;
   }
   
   .punjab-jobs-section-content-4 h1{
@@ -3133,7 +3170,7 @@ text-align: center;
   }
   
   .punjab-jobs-section-content-4 li{
-    font-size: 3.5vw;
+    font-size: 4.5vw;
   }
   
   .punjab-jobs-section-content-2 {
@@ -3476,6 +3513,8 @@ text-align: center;
     font-size: 2vw; 
   }
 
+ 
+
   /* GRIEVANCE SECTION */
 
   .grievance-section-content {
@@ -3765,6 +3804,14 @@ text-align: center;
     text-align: justify;
   }
 
+   /* FOR OUR TEAM PAGE */
+
+   .right-aligned-content-card,
+   .left-aligned-content-card   {
+    height: auto !important;
+    margin: 2% 0 auto 0 !important;
+   }
+
 
   /* FOR OUR TEAM PAGE */
 
@@ -3782,7 +3829,7 @@ text-align: center;
   /* FOR OUR AFFILIATIONS PAGE */
 
   #our-affiliations{
-    margin-top: 20%;
+    margin-top: 10%;
   }
 
   .our-affiliations-content h1{
@@ -3797,7 +3844,7 @@ text-align: center;
    /* FOR ADP SCHEME PAGE */
 
   #adp-scheme{
-    margin-top: 20%;
+    margin-top: 10%;
   }
   
   .adp-scheme-content h1{
@@ -3810,7 +3857,11 @@ text-align: center;
   }
   
   .adp-scheme-content1 h2{
-    font-size: 3vw;
+    font-size: 2.5vw;
+  }
+
+  .adp-scheme-content1-pdf1 p{
+    font-size: 2vw !important;
   }
 
    /* FOR DEVELOPMENT PARTNERS PAGE */
